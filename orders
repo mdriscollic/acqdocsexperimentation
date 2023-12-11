@@ -148,216 +148,29 @@ You can search for orders in the **Search & filter** pane. Click **Orders** to s
 *   **PO number.** The purchase order number.
 
 
-You can also search for orders by selecting any of the filters in the **Search & filter** pane. Additionally, you can apply the filters after you perform a search to limit your results. See the sections below for more information on the filters.
-
-
-### Status
-
-In the **Search & filter** pane, click **Status** and select any applicable filters:
-
-
-
-*   **Closed.** Orders that are closed.
-*   **Open.** Orders that are open.
-*   **Pending.** Orders that are pending.
-
-
-### Prefix
-
-To search for orders by purchase order number prefix, follow these steps.  For more information about creating **Prefix** values, see [Settings > Orders > Prefixes]({{< ref "/settings_orders.md#settings--orders--prefixes" >}}).
-
-
-1. In the **Search & filter** pane, click **Prefix**.
-
-2. Select the prefix from the drop-down list. The search results appear in the Order lines pane.
-
-
-### Suffix
-
-To search for orders purchase order number suffix, follow these steps.  For more information about creating **Suffix** values, see [Settings > Orders > Suffixes]({{< ref "/settings_orders.md#settings--orders--suffixes" >}})
-
-
-1. In the **Search & filter** pane, click **Suffix**.
-
-2. Select the suffix from the drop-down list. The search results appear in the Order lines pane.
-
-
-### Approved
-
-In the **Search & filter** pane, click **Approved** and select any applicable filters:
-
-
-
-*   **Yes.** Approved orders.
-*   **No.** Orders not yet approved.
-
-
-### Acquisitions unit
-
-To search for orders assigned to a specific acquisitions unit, follow these steps:
-
-1. In the **Search & filter** pane, click **Acquisitions unit**.
-
-2. Select the acquisitions unit from the drop-down list. The search results appear in the Orders pane.
-
-
-### Assigned to
-
-To search for orders assigned to a specific user, follow these steps:
-
-1. In the **Search & filter** pane, click **Assigned to**.
-
-2. Click **Find User**.
-
-3. In the **Select User** dialog, search for the user.
-
-4. Select the user you want to filter by. The search results appear in the Orders pane.
-
-
-### Created by
-
-To search for orders created by a specific user, follow these steps:
-
-1. In the **Search & filter** pane, click **Created by**.
-
-2. Click **Find User**.
-
-3. In the **Select User** dialog, search for the user.
-
-4. Select the vendor you want to filter by. The search results appear in the Orders pane.
-
-
-### Date created
-
-To search for orders based on the date they were created, follow these steps:
-
-1. In the **Search & filter** pane, click **Date created**.
-
-2. Enter a start date in the **From** box and an end date in the **To** box.
-
-3. Click **Apply**. The search results appear in the Orders pane.
-
-
-### Date opened
-
-To search for orders based on the date the order was opened, follow these steps:
-
-1. In the **Search & filter** pane, click **Date opened**.
-
-2. Enter a start date in the **From** box and an end date in the **To** box.
-
-3. Click **Apply**. The search results appear in the Orders pane.
-
-
-### Order type
-
-In the **Search & filter** pane, click **Order type** and select any applicable filters:
-
-
-
-*   **One-time.** One-time orders.
-*   **Ongoing.** Ongoing orders.
-
-
-### Vendor
-
-To search for orders placed with a specific vendor, follow these steps:
-
-1. In the **Search & filter** pane, click **Vendor**.
-
-2. Click **Organization look-up**.
-
-3. In the **Select Organization** dialog, search for the vendor.
-
-4. Select the vendor you want to filter by. The search results appear in the Orders pane.
-
-
-### Tags
-
-To search for orders assigned with specific tags, follow these steps:
-
-1. In the **Search & filter** pane, click **Tags**.
-
-2. Select the tag(s) from the drop-down list. The search results appear in the Orders pane.
-
-
-### Reason for closure
-
-To search for orders based on their reason for closure, follow these steps:
-
-1. In the **Search & filter** pane, click **Reason for closure**.
-
-2. Select the reason for closure from the drop-down list. The search results appear in the Orders pane.
-
-
-### Re-encumber
-
-In the **Search & filter** pane, click **Re-encumber** and select any applicable filters:
-
-
-
-*   **Yes.** Orders with the Re-encumber checkbox selected.
-*   **No.** Orders with the Re-encumber checkbox cleared.
-
-
-### Subscription
-
-To search for subscription orders follow these steps:
-
-1. In the **Search & filter** pane, click **Subscription**.
-
-2. Choose the appropriate filter:
-
-*   **Yes.** Subscription orders.
-*   **No.** Non-subscription orders.
-
-
-### Renewal date
-
-To search for orders based on their renewal date, follow these steps:
-
-1. In the **Search & filter** pane, click **Renewal date**.
-
-2. Enter a start date in the **From** box and an end date in the **To** box.
-
-3. Click **Apply**. The search results appear in the Orders pane.
-
-
-### Manual renewal
-
-In the **Search & filter** pane, click **Manual renewal** and select any applicable filters:
-
-
-
-*   **Yes.** Orders with the Manual renewal checkbox selected.
-*   **No.** Orders with the Manual renewal checkbox cleared.
-
-
-### Review period
-
-To search for orders within a review period, in days, follow these steps:
-
-1. In the **Search & filter** pane, click **Review period**.
-
-2. Enter or select the review period, in days. The search results appear in the Orders pane.
-
-
-### Bill to
-
-To search for orders based on their bill to address, follow these steps. Addresses are created in Settings > Tenant > Addresses. 
-
-1. In the **Search & filter** pane, click **Bill to**.
-
-2. Select the address name from the drop-down list. The search results appear in the Orders pane.
-
-
-### Ship to
-
-To search for orders based on their ship to address, follow these steps. Addresses are created in Settings > Tenant > Addresses. 
-
-1. In the **Search & filter** pane, click **Ship to**.
-
-2. Select the address name from the drop-down list. The search results appear in the Orders pane.
+You can also search for orders by selecting any of the filters in the **Search & filter** pane. Additionally, you can use any of the following filters to initiate a search or limit search results:
+
+
+* **Status:** Closed, Open, or Pending. 
+* **Prefix:** Values defined in [Settings > Orders > Prefixes]({{< ref "settings_orders#settings--orders--po-number--prefixes" >}}).
+* **Suffix:** Values defined in [Settings > Orders > Suffixes]({{< ref "settings_orders#settings--orders--po-number--suffixes" >}}).
+* **Approved:** Yes or No.
+* **Acquisitions unit:** Values defined in XXXXXXXX
+* **Assigned to:** Based on look-up within the Users app.
+* **Created by:* Based on look-up within the Users app.
+* **Date created:** Based on calendar selection in the **From** and **To** fields.
+* **Date opened:** Based on calendar selection in the **From** and **To** fields.
+* **Order type:** One-time or Ongoing.
+* **Vendor:** Based on look-up within the Organizations app.
+* **Tags:** Values dependent on local configuration.
+* **Reason for closure:** Values defined in [Settings > Orders > Closing purchase order reasons]({{< ref "settings_orders#settings--orders---general--closing-purchase-order-reasons" >}}).
+* **Re-encumber:** Yes or No.
+* **Subscription:** Yes or No.
+* **Renewal date:** Based on calendar selection in the **From** and **To** fields.
+* **Manual renewal:** Yes or No.
+* **Review period:** Days, expressed as an integer.
+* **Bill to:** Values defined in XXX
+* **Ship to:** Values defined in XXX
 
 ## Exporting search results
 
