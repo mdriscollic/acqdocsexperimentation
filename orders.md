@@ -157,7 +157,7 @@ You can also search for orders by selecting any of the filters in the **Search &
 * **Approved:** Yes or No.
 * **Acquisitions unit:** Values defined in XXXXXXXX
 * **Assigned to:** Based on look-up within the Users app.
-* **Created by:* Based on look-up within the Users app.
+* **Created by:** Based on look-up within the Users app.
 * **Date created:** Based on calendar selection in the **From** and **To** fields.
 * **Date opened:** Based on calendar selection in the **From** and **To** fields.
 * **Order type:** One-time or Ongoing.
